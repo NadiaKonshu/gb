@@ -6,6 +6,7 @@ while i < el_count:
     my_list.append(input("Введите следующее значение списка "))
     i += 1
 el = 0
+print(my_list)
 for elem in range(int(len(my_list)/2)):
         left_elem = my_list[el]
         right_elem = my_list[el + 1]
